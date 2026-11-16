@@ -1,0 +1,28 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}\usepackage[utf8]{inputenc}\usepackage[margin=2.5cm]{geometry}\usepackage{xcolor}
+\usepackage[colorlinks=true,urlcolor=blue!50!black]{hyperref}
+\newif\ifdraft \drafttrue
+\newcommand{\todo}[1]{\ifdraft{\color{red}\textbf{[TODO: #1]}}\fi}
+\newcommand{\RepoDOI}{10.5281/zenodo.XXXXXXX}   % <- same DOI as in main_te.tex
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Tourism Yield and Spatial Concentration in Thailand:\\ A Provincial Assessment Using the Punch Score}\\[1.5em]
+{\large Patcharaporn Samarnggoon}\\
+Independent Researcher, Chiang Mai, Thailand\\
+E-mail: patcha535@gmail.com\\
+ORCID: 0000-0003-3081-0605
+\end{center}
+\bigskip
+\section*{Declaration of conflicting interests}
+The author declares that she has no competing interests.
+\section*{Funding}
+This research received no specific grant from funding agencies in the public, commercial, or not-for-profit sectors.
+\section*{Data availability}
+The 77-province dataset constructed from the cited public sources (Ministry of Tourism and Sports, NESDC, National Statistical Office, OCHA), the scripts that build and validate it, the analysis code that produces every table and figure, and a script that checks every quoted number against the recomputation are provided as supplementary material and archived at Zenodo (\url{https://doi.org/\RepoDOI}). \todo{Insert the DOI of the corrected release in \texttt{\textbackslash RepoDOI}.}
+\section*{Author contribution}
+The author was solely responsible for conceptualization, data collection and curation, analysis, software, and manuscript preparation.
+\section*{Declaration of generative AI use}
+During the preparation of this work, the author used AI assistance, including Claude (Anthropic), for drafting and coding support. After using this tool, the author reviewed and edited the content as needed and takes full responsibility for the content of the manuscript.
+\section*{Related work}
+The manuscript cites ``Anonymous (2026a, 2026b)'' for the Punch Score framework. For non-anonymised review these are: (2026a) \emph{When Does Feedback-Driven Weighting Outperform Preference Elicitation? Evidence from Simulation and Empirical Evaluation} (under review); (2026b) \emph{A Conceptual Weighted Punch Score Framework for Research Assessment}, Journal of Intellectual Capital, manuscript JIC-11-2026-0780.
+\end{document}
